@@ -1,0 +1,45 @@
+:root {
+  --main-color: #2980b9;
+  --orange: #f39c12;
+  --red: #e74c3c;
+  --black: #333;
+  --white: #fff;
+  --light-color: #666;
+  --light-bg: #eee;
+  --border: 0.2rem solid #facc15;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.category .slide {
+  margin-bottom: 5rem;
+  box-shadow: var(--box-shadow);
+
+  text-align: center;
+  padding: 2rem;
+  background: hsla(255, 255, 255, 0.5);
+}
+
+.category .slide:hover {
+  background-color: var(--black);
+}
+
+.category .slide:hover img {
+  filter: invert();
+}
+
+.category .slide:hover h3 {
+  color: var(--white);
+}
+
+.category .slide img {
+  height: 10rem;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  user-select: none;
+}
+
+.category .slide h3 {
+  font-size: 1rem;
+  color: var(--black);
+  user-select: none;
+}
