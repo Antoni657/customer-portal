@@ -18,6 +18,11 @@ To develop a secure and functional customer portal that enables users to manage 
 - **Database Integration:** MySQL is used to store and retrieve user data, system settings, and portal content.
 - **Admin Panel:** Allows admin users to monitor, update, and configure system settings and user accounts.
 
+## 📁 UI Design Preview
+View the UI design mockups and layout inspirations here:  
+🔗 [UI Design Images (Google Drive)](https://drive.google.com/drive/folders/10i7Xu6Rha8wJLjt60YMgywcNbxw8KudP?usp=sharing)
+
+
 ## ⚠️ Limitations
 - The portal is currently built for local deployment using XAMPP; online deployment will require configuration changes.
 - Email verification and password recovery features are not yet included.
@@ -35,3 +40,10 @@ To develop a secure and functional customer portal that enables users to manage 
 - MySQL
 - HTML, CSS, JavaScript
 - XAMPP (Local
+
+
+## 💡 Features
+- User Login and Registration
+- Admin Dashboard
+- Dynamic Content Management
+- Responsive Design
